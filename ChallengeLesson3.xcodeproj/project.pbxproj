@@ -12,6 +12,8 @@
 		50931E691F4A1EA800C5E2B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50931E671F4A1EA800C5E2B3 /* Main.storyboard */; };
 		50931E6B1F4A1EA800C5E2B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50931E6A1F4A1EA800C5E2B3 /* Assets.xcassets */; };
 		50931E6E1F4A1EA900C5E2B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50931E6C1F4A1EA800C5E2B3 /* LaunchScreen.storyboard */; };
+		50931E771F4A244000C5E2B3 /* ZipTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50931E761F4A244000C5E2B3 /* ZipTextFieldDelegate.swift */; };
+		50931E791F4A2BE700C5E2B3 /* DollarsTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50931E781F4A2BE600C5E2B3 /* DollarsTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		50931E6A1F4A1EA800C5E2B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50931E6D1F4A1EA900C5E2B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50931E6F1F4A1EA900C5E2B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50931E761F4A244000C5E2B3 /* ZipTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipTextFieldDelegate.swift; sourceTree = "<group>"; };
+		50931E781F4A2BE600C5E2B3 /* DollarsTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DollarsTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		50931E621F4A1EA800C5E2B3 /* ChallengeLesson3 */ = {
 			isa = PBXGroup;
 			children = (
+				50931E751F4A240B00C5E2B3 /* TextFieldDelegations */,
 				50931E631F4A1EA800C5E2B3 /* AppDelegate.swift */,
 				50931E651F4A1EA800C5E2B3 /* ViewController.swift */,
 				50931E671F4A1EA800C5E2B3 /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				50931E6F1F4A1EA900C5E2B3 /* Info.plist */,
 			);
 			path = ChallengeLesson3;
+			sourceTree = "<group>";
+		};
+		50931E751F4A240B00C5E2B3 /* TextFieldDelegations */ = {
+			isa = PBXGroup;
+			children = (
+				50931E761F4A244000C5E2B3 /* ZipTextFieldDelegate.swift */,
+				50931E781F4A2BE600C5E2B3 /* DollarsTextFieldDelegate.swift */,
+			);
+			name = TextFieldDelegations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +151,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				50931E661F4A1EA800C5E2B3 /* ViewController.swift in Sources */,
+				50931E771F4A244000C5E2B3 /* ZipTextFieldDelegate.swift in Sources */,
+				50931E791F4A2BE700C5E2B3 /* DollarsTextFieldDelegate.swift in Sources */,
 				50931E641F4A1EA800C5E2B3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
