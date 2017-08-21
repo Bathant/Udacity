@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     
     @IBAction func SecciorsBtn(_ sender: Any) {
         
-        temp = "Secciors"
+        temp = "Scissors"
         
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
